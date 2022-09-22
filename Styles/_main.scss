@@ -1,0 +1,9 @@
+@use "./colorPalette" as *;
+@use "./typography" as *;
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+@use "./colorPalette" as *;
+@use "./typography" as *;
+
+.skills {
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: initial;
+
+    figure {
+        display: flex;
+        flex-wrap: no-wrap;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            height: 100%;
+            margin-top: 2vh;
+        }
+
+        figcaption {
+            margin-top: 0.5vh;
+        }
+    }
+}

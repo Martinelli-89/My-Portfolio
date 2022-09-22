@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+/* $color3: rgb(240, 165, 0); */
+nav {
+  /* Look */
+  height: 5vh;
+  font-family: "Satisfy";
+  font-size: 2.5rem;
+  color: rgb(207, 117, 0);
+  /* Display */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav * {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+nav img {
+  height: 100%;
+  width: auto;
+}
+
+header {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h3 {
+  font-family: "Satisfy";
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(207, 117, 0);
+  margin-bottom: 0;
+}
+header .line {
+  width: 40vw;
+  height: 17px;
+  border-top: 1px solid white;
+  margin-top: 0;
+}
+
+.about-me {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+.about-me p {
+  color: rgb(219, 219, 219);
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects .projects__box {
+  margin: 5vw;
+  width: 25vw;
+  height: 25vw;
+  border: solid 1px rgb(219, 219, 219);
+  color: rgb(207, 117, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.skills {
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: initial;
+}
+.skills figure {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.skills figure img {
+  height: 100%;
+  margin-top: 2vh;
+}
+.skills figure figcaption {
+  margin-top: 0.5vh;
+}
+
+footer {
+  background-color: rgb(219, 219, 219);
+  height: 5vh;
+  width: 95vw;
+  margin: 1vw;
+  margin-bottom: 3vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+footer img {
+  height: 90%;
+  width: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+footer p {
+  align-self: center;
+  color: rgb(31, 30, 30);
+  font-family: "Satisfy";
+  font-size: 1.5rem;
+}
+footer .small {
+  height: 150%;
+  width: auto;
+}
+
+body {
+  background-color: rgb(31, 30, 30);
+  color: rgb(219, 219, 219);
+  font-family: "Open Sans";
+}/*# sourceMappingURL=style.css.map */

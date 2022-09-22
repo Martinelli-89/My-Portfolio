@@ -1,0 +1,35 @@
+@use "./colorPalette" as *;
+@use "./typography" as *;
+
+footer {
+    background-color: $color4;
+    height: 5vh;
+    width: 95vw;
+    margin: 1vw;
+    margin-bottom: 3vh;
+    border-radius: 25px;
+
+    //display
+    display: flex;
+    justify-content: space-between;
+    
+    
+    img {
+        height: 90%;
+        width: auto;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    p {
+        align-self:center;
+        color: $color1;
+        font-family: $logoFont;
+        font-size: $small;
+    }
+
+    .small {
+        height: 150%;
+        width: auto;
+    }
+}
