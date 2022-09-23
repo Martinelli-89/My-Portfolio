@@ -1,40 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 /* $color3: rgb(240, 165, 0); */
-nav {
+.nav {
   /* Look */
   height: 5vh;
   font-family: "Satisfy";
   font-size: 2.5rem;
   color: rgb(207, 117, 0);
+  width: 80vw;
   /* Display */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-nav * {
+.nav * {
   margin-left: 15px;
   margin-right: 15px;
 }
-nav img {
+.nav .nav__menuIcon {
   height: 100%;
   width: auto;
 }
 
-header {
+.header {
   margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-header h3 {
+.header .header__title {
   font-family: "Satisfy";
   text-align: center;
   font-size: 3rem;
   color: rgb(207, 117, 0);
   margin-bottom: 0;
 }
-header .line {
+.header .header__line {
   width: 40vw;
   height: 17px;
   border-top: 1px solid white;
@@ -77,6 +78,20 @@ main {
   text-align: center;
   font-size: 1.5rem;
 }
+@media (min-width: 480px) {
+  .projects .projects__box {
+    margin: 4vw;
+    width: 20vw;
+    height: 20vw;
+  }
+}
+@media (min-width: 1025px) {
+  .projects .projects__box {
+    margin: 2vw;
+    width: 10vw;
+    height: 10vw;
+  }
+}
 
 .skills {
   width: 95vw;
@@ -102,18 +117,23 @@ main {
 footer {
   background-color: rgb(219, 219, 219);
   height: 5vh;
-  width: 95vw;
+  width: 60vw;
   margin: 1vw;
   margin-bottom: 3vh;
   border-radius: 25px;
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 1025px) {
+  footer {
+    width: 40vw;
+  }
+}
 footer img {
   height: 90%;
   width: auto;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 footer p {
   align-self: center;
@@ -121,13 +141,12 @@ footer p {
   font-family: "Satisfy";
   font-size: 1.5rem;
 }
-footer .small {
-  height: 150%;
-  width: auto;
-}
 
 body {
   background-color: rgb(31, 30, 30);
   color: rgb(219, 219, 219);
   font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
