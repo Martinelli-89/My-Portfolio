@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
 .nav {
   /* Look */
   height: 5vh;
@@ -29,7 +30,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 1vh;
 }
 .header .header__title {
   font-family: "Merriweather", serif;
@@ -40,33 +40,30 @@
   display: flex;
   flex-direction: column;
 }
-.header .header__line {
-  width: 40vw;
-  height: 17px;
-  border-top: 1px solid #ECE0CC;
-  margin-top: -10px;
-  margin-bottom: 20px;
-  align-self: center;
-}
 .header .header__title--wrapper {
   display: flex;
-  margin-bottom: -45px;
+  margin-bottom: -65px;
   align-self: center;
 }
 
 .about-me {
-  width: 80vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: #098AAF;
+  background-color: #d8c00b;
   width: 100vw;
   margin-bottom: 5vh;
+  margin-top: 3vh;
 }
 .about-me p {
-  color: #ECE0CC;
+  padding-top: 2.5vh;
+  padding-bottom: 1vh;
+  color: #165663;
   text-align: center;
   font-size: 1.2rem;
   margin-top: 2px;
+  width: 90%;
+  align-self: center;
 }
 
 main {
@@ -110,7 +107,7 @@ main {
   color: #ECE0CC;
 }
 .projects .projects__box a:hover {
-  color: #098AAF;
+  color: #d8c00b;
 }
 @media (min-width: 480px) {
   .projects .projects__box {
@@ -132,7 +129,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex: initial;
+  padding-bottom: 2vh;
 }
 .skills figure {
   display: flex;
@@ -150,7 +147,7 @@ main {
 
 footer {
   height: 5vh;
-  width: 340vw;
+  width: 100vw;
   margin-top: 5vh;
   margin-bottom: 3vh;
   border-radius: 25px;
@@ -171,7 +168,7 @@ footer img {
 footer p {
   align-self: center;
   color: #ECE0CC;
-  font-family: "Satisfy";
+  font-family: "Zilla Slab";
   font-size: 1.8rem;
 }
 
@@ -257,7 +254,8 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #098AAF;
+  background-color: #d8c00b;
+  color: #165663;
 }
 .workExperience .workExperience__title {
   font-size: 1.8rem;
@@ -275,7 +273,7 @@ footer p {
 body {
   background-color: #165663;
   color: #ECE0CC;
-  font-family: "Open Sans";
+  font-family: "Zilla Slab";
   display: flex;
   flex-direction: column;
   align-items: center;

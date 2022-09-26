@@ -4,7 +4,7 @@
 
 footer {
     height: 5vh;
-    width: 340vw;
+    width: 100vw;
     margin-top: 5vh;
     margin-bottom: 3vh;
     border-radius: 25px;
@@ -28,7 +28,7 @@ footer {
     p {
         align-self:center;
         color: $mediumLight;
-        font-family: $logoFont;
+        font-family: $mainFont;
         font-size: $small;
     }
 }

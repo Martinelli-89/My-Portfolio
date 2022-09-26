@@ -2,17 +2,22 @@
 @use "./typography" as *;
 
 .about-me {
-    width: 80vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     background-color: $lightdark;
     width: 100vw; 
     margin-bottom: 5vh;
+    margin-top: 3vh;
 
     p {
-        color: $mediumLight;
+        padding-top: 2.5vh;
+        padding-bottom: 1vh;
+        color: $dark;
         text-align: center;
         font-size: $smaller;
         margin-top: 2px;
+        width: 90%;
+        align-self: center;
     }
 }

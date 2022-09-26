@@ -8,7 +8,6 @@
     flex-direction: column;
     align-items:center;
     justify-content: space-evenly;
-    margin-bottom: 1vh;;
 
     .header__title {
         font-family: $titles;
@@ -20,18 +19,9 @@
         flex-direction: column;
     }
 
-    .header__line{
-        width: 40vw;
-        height: 17px;
-        border-top: 1px solid $mediumLight;
-        margin-top: -10px;
-        margin-bottom: 20px;
-        align-self: center;
-    }
-
     .header__title--wrapper {
         display:flex;
-        margin-bottom: -45px;
+        margin-bottom: -65px;
         align-self: center;
     }
 
