@@ -5,11 +5,14 @@
     width: 80vw;
     display: flex;
     flex-direction: column;
+    background-color: $lightdark;
+    width: 100vw; 
+    margin-bottom: 5vh;
 
     p {
         color: $mediumLight;
         text-align: center;
-        font-size: $small;
+        font-size: $smaller;
         margin-top: 2px;
     }
 }

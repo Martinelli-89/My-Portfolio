@@ -7,11 +7,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-weight: bold;
 
     .projects__box {
         margin:5vw;
-        width:30vw;
-        height: 30vw;
+        width:33vw;
+        height: 33vw;
         border: solid 1px $mediumLight;
         border-radius: 25px;
         color: $mediumLight ;
@@ -29,6 +30,19 @@
             margin-top: 15%;
             margin-bottom: 15%;
         }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color:$mediumLight;
+        }
+
+        a:hover {
+            color:$lightdark;
+        }
+
 
         @include for-tablet {    
             margin:4vw;

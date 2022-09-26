@@ -8,6 +8,7 @@
   font-size: 2.5rem;
   color: #ECE0CC;
   width: 80vw;
+  margin-bottom: 4vh;
   /* Display */
   display: flex;
   justify-content: space-between;
@@ -27,30 +28,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1vh;
 }
 .header .header__title {
   font-family: "Merriweather", serif;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: #ECE0CC;
   margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 .header .header__line {
   width: 40vw;
   height: 17px;
   border-top: 1px solid #ECE0CC;
-  margin-top: 0;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+.header .header__title--wrapper {
+  display: flex;
+  margin-bottom: -45px;
+  align-self: center;
 }
 
 .about-me {
   width: 80vw;
   display: flex;
   flex-direction: column;
+  background-color: #098AAF;
+  width: 100vw;
+  margin-bottom: 5vh;
 }
 .about-me p {
   color: #ECE0CC;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 2px;
 }
 
@@ -65,11 +80,12 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-weight: bold;
 }
 .projects .projects__box {
   margin: 5vw;
-  width: 30vw;
-  height: 30vw;
+  width: 33vw;
+  height: 33vw;
   border: solid 1px #ECE0CC;
   border-radius: 25px;
   color: #ECE0CC;
@@ -86,6 +102,15 @@ main {
   border-bottom: 1px solid #ECE0CC;
   margin-top: 15%;
   margin-bottom: 15%;
+}
+.projects .projects__box a {
+  text-decoration: none;
+}
+.projects .projects__box a:visited {
+  color: #ECE0CC;
+}
+.projects .projects__box a:hover {
+  color: #098AAF;
 }
 @media (min-width: 480px) {
   .projects .projects__box {
@@ -147,7 +172,104 @@ footer p {
   align-self: center;
   color: #ECE0CC;
   font-family: "Satisfy";
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.header__title--slideright {
+  -webkit-animation: slideRight 3s ease-out;
+          animation: slideRight 3s ease-out;
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    transform: translateX(-200%);
+    color: #165663;
+  }
+  100% {
+    transform: translateX(0%);
+    color: #ECE0CC;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-200%);
+    color: #165663;
+  }
+  100% {
+    transform: translateX(0%);
+    color: #ECE0CC;
+  }
+}
+.header__title--slideleft {
+  -webkit-animation: slideLeft 3s ease-out;
+          animation: slideLeft 3s ease-out;
+}
+
+@-webkit-keyframes slideLeft {
+  0% {
+    transform: translateX(200%);
+    color: #165663;
+  }
+  100% {
+    transform: translateX(0%);
+    color: #ECE0CC;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(200%);
+    color: #165663;
+  }
+  100% {
+    transform: translateX(0%);
+    color: #ECE0CC;
+  }
+}
+.header__title--appear {
+  -webkit-animation: appear 3s forwards;
+          animation: appear 3s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  color: #165663;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    color: #165663;
+  }
+  100% {
+    color: #ECE0CC;
+  }
+}
+
+@keyframes appear {
+  0% {
+    color: #165663;
+  }
+  100% {
+    color: #ECE0CC;
+  }
+}
+.workExperience {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #098AAF;
+}
+.workExperience .workExperience__title {
+  font-size: 1.8rem;
+}
+.workExperience .workExperience__work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workExperience .workExperience__work h4 {
+  margin-bottom: 0px;
+  font-size: 1.2rem;
 }
 
 body {

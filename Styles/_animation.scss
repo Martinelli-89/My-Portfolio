@@ -1,0 +1,46 @@
+@use "./colorPalette" as *;
+
+.header__title--slideright {
+    animation: slideRight 3s ease-out;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-200%);
+        color: $dark;
+    }
+    100% {
+        transform: translateX(0%);
+        color: $mediumLight;
+    }
+}
+
+.header__title--slideleft {
+    animation: slideLeft 3s ease-out;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(+200%);
+        color: $dark;
+    }
+    100% {
+        transform: translateX(0%);
+        color: $mediumLight;
+    }
+}
+
+.header__title--appear {
+    animation: appear 3s forwards;
+    animation-delay: 3s;
+    color:$dark;
+}
+
+@keyframes appear {
+    0% {
+        color: $dark;
+    }
+    100% {
+        color: $mediumLight;
+    }
+}
