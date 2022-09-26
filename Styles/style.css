@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
-/* $color3: rgb(240, 165, 0); */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
 .nav {
   /* Look */
   height: 5vh;
   font-family: "Satisfy";
   font-size: 2.5rem;
-  color: rgb(207, 117, 0);
+  color: #ECE0CC;
   width: 80vw;
   /* Display */
   display: flex;
@@ -29,16 +29,16 @@
   align-items: center;
 }
 .header .header__title {
-  font-family: "Satisfy";
+  font-family: "Merriweather", serif;
   text-align: center;
   font-size: 3rem;
-  color: rgb(207, 117, 0);
+  color: #ECE0CC;
   margin-bottom: 0;
 }
 .header .header__line {
   width: 40vw;
   height: 17px;
-  border-top: 1px solid white;
+  border-top: 1px solid #ECE0CC;
   margin-top: 0;
 }
 
@@ -48,7 +48,7 @@
   flex-direction: column;
 }
 .about-me p {
-  color: rgb(219, 219, 219);
+  color: #ECE0CC;
   text-align: center;
   font-size: 1.5rem;
   margin-top: 2px;
@@ -68,15 +68,24 @@ main {
 }
 .projects .projects__box {
   margin: 5vw;
-  width: 25vw;
-  height: 25vw;
-  border: solid 1px rgb(219, 219, 219);
-  color: rgb(207, 117, 0);
+  width: 30vw;
+  height: 30vw;
+  border: solid 1px #ECE0CC;
+  border-radius: 25px;
+  color: #ECE0CC;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+.projects .projects__box .projects__line {
+  width: 60%;
+  height: 2px;
+  border-bottom: 1px solid #ECE0CC;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 @media (min-width: 480px) {
   .projects .projects__box {
@@ -115,14 +124,13 @@ main {
 }
 
 footer {
-  background-color: rgb(219, 219, 219);
   height: 5vh;
-  width: 60vw;
-  margin: 1vw;
+  width: 340vw;
+  margin-top: 5vh;
   margin-bottom: 3vh;
   border-radius: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 @media (min-width: 1025px) {
   footer {
@@ -132,19 +140,19 @@ footer {
 footer img {
   height: 90%;
   width: auto;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
 footer p {
   align-self: center;
-  color: rgb(31, 30, 30);
+  color: #ECE0CC;
   font-family: "Satisfy";
   font-size: 1.5rem;
 }
 
 body {
-  background-color: rgb(31, 30, 30);
-  color: rgb(219, 219, 219);
+  background-color: #165663;
+  color: #ECE0CC;
   font-family: "Open Sans";
   display: flex;
   flex-direction: column;

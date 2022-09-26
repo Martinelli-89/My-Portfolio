@@ -10,15 +10,25 @@
 
     .projects__box {
         margin:5vw;
-        width:25vw;
-        height: 25vw;
-        border: solid 1px $color4;
-        color: $color2;
+        width:30vw;
+        height: 30vw;
+        border: solid 1px $mediumLight;
+        border-radius: 25px;
+        color: $mediumLight ;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: $small;
+        font-size: $smaller;
+
+        .projects__line {
+            width:60%;
+            height: 2px;
+            border-bottom: 1px solid $mediumLight;
+            margin-top: 15%;
+            margin-bottom: 15%;
+        }
 
         @include for-tablet {    
             margin:4vw;

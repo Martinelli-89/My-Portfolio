@@ -7,11 +7,12 @@
 @use "./projects" as *;
 @use "./skills" as *;
 @use "./footer" as *;
+@use "./animation" as *;
 
 body {
 
-    background-color: $color1;
-    color: $color4;
+    background-color: $dark;
+    color: $mediumLight;
     font-family: $mainFont;
     display: flex;
     flex-direction: column;

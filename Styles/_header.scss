@@ -9,17 +9,17 @@
     align-items: center;
 
     .header__title {
-        font-family: $logoFont;
+        font-family: $titles;
         text-align: center;
         font-size: $large;
-        color:$color2;
+        color:$mediumLight;
         margin-bottom: 0;
     }
 
     .header__line{
         width: 40vw;
         height: 17px;
-        border-top: 1px solid white;
+        border-top: 1px solid $mediumLight;
         margin-top: 0;
     }
 }
