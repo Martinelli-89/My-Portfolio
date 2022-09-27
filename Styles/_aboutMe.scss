@@ -1,5 +1,6 @@
 @use "./colorPalette" as *;
 @use "./typography" as *;
+@use "./breakpoints" as *;
 
 .about-me {
     width: 100vw;
@@ -19,5 +20,16 @@
         margin-top: 2px;
         width: 90%;
         align-self: center;
+
+        @include for-desktop-up {    
+            font-size: $mediumD;
+            width: 50%;
+         }
+
+         @include for-tablet {    
+            font-size: $mediumT;
+            width: 80%;
+         }
+
     }
 }

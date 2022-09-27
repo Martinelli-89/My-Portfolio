@@ -23,6 +23,15 @@
         text-align: center;
         font-size: $smaller;
 
+        @include for-desktop-up {    
+            font-size: $smallD;
+         }
+
+         @include for-tablet {    
+            font-size: $smallT;
+         }
+
+
         .projects__line {
             width:60%;
             height: 2px;
@@ -46,14 +55,14 @@
 
         @include for-tablet {    
             margin:4vw;
-            width: 20vw;
-            height: 20vw; 
+            width: 23vw;
+            height: 23vw; 
          }
 
          @include for-desktop-up {    
             margin:2vw;
-            width: 10vw;
-            height: 10vw; 
+            width: 12vw;
+            height: 12vw; 
          }
 
     }

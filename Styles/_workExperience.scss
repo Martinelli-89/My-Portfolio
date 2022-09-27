@@ -1,5 +1,6 @@
 @use "./typography" as *;
 @use "./colorPalette" as *;
+@use "./breakpoints" as *;
 
 .workExperience {
     width: 100vw;
@@ -11,6 +12,15 @@
 
     .workExperience__title {
         font-size: $small;
+
+        @include for-desktop-up {    
+            font-size: $mediumD;
+         }
+
+         @include for-tablet {    
+            font-size: $mediumT;
+         }
+
     }
 
     .workExperience__work {
@@ -21,6 +31,23 @@
         h4 {
             margin-bottom: 0px;
             font-size: $smaller;
+
+            @include for-desktop-up {    
+                font-size: $smallerD;
+             }
+
+             @include for-tablet {    
+                font-size: $smallT;
+             }
+
+        }
+
+        h5 {
+            font-size: $smallest;
+
+            @include for-tablet {    
+                font-size: $smallestT;
+             }
         }
     }
 
