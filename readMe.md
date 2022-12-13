@@ -26,5 +26,5 @@ My first project on the nology course, building a portfolio in HTML to showcase 
 <h2>Setup</h2>
 <p>Access the site on  <a href="https://martinelli-89.github.io/My-Portfolio/">(link)</a></p>
 
-<h2>Status<h2>
+<h2>Status</h2>
 <p>My knowledge vastely improved during the course and I have built a new portfolio in React, which you can visit here <a href="https://singular-macaron-770bc3.netlify.app/">(link)</a></p> 
